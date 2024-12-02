@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 #subtitle: Whatever text, affiliation etc...
 subtitle: Research scientist at <a href='https://valeoai.github.io'>valeo.ai</a>
@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 ---
 
 I am a research scientist at [valeo.ai](https://valeoai.github.io), an AI research center focused on machine learning and computer vision for automotive applications.
-My work focuses on dynamic scene understanding and forecasting, vision and language foundation models, and model explainability.
+My research focuses on dynamic scene understanding and forecasting, vision and language foundation models, and model explainability.
 
-Before joining Valeo, I completed a Ph.D at Sorbonne Université, on [multi-modal machine learning with language and vision](https://theses.fr/2019SORUS409), under the supervision of [Patrick Gallinari](https://pages.isir.upmc.fr/gallinari/), [Laure Soulier](https://pages.isir.upmc.fr/soulier/), and [Benjamin Piwowarski](https://www.piwowarski.fr/). Prior to this, I obtained my MSc at ENS Paris-Saclay (Master MVA) and Ecole Polytechnique (X2012).
+Before joining Valeo, I completed a Ph.D at Sorbonne Université, on [multi-modal machine learning with language and vision](https://theses.fr/2019SORUS409), under the supervision of [Patrick Gallinari](https://pages.isir.upmc.fr/gallinari/), [Laure Soulier](https://pages.isir.upmc.fr/soulier/), and [Benjamin Piwowarski](https://www.piwowarski.fr/). Prior to this, I obtained an MSc from ENS Paris-Saclay ("Master MVA") and Ecole Polytechnique (X2012).
 

@@ -2,3 +2,142 @@
   - firstname: ["Eloi", "E.", "Éloi", "É."]
     url: https://eloiz.github.io
 
+"cord":
+  - firstname: ["Matthieu", "M."]
+    url: https://cord.isir.upmc.fr/
+
+"ben-younes":
+  - firstname: ["Hedi", "Hédi"]
+    url: https://scholar.google.fr/citations?user=IFLcfvUAAAAJ
+
+"chen": 
+  - firstname: ["Mickael", "Mickaël"]
+    url: https://scholar.google.fr/citations?user=QnRpMJAAAAAJ
+
+"perez":
+  - firstname: ["Patrick"]
+    url: https://ptrckprz.github.io/
+
+"gallinari":
+  - firstname: ["Patrick"]
+    url: https://pages.isir.upmc.fr/gallinari/
+
+"bordes":
+  - firstname: ["Patrick"]
+    url: https://www.linkedin.com/in/patrick-bordes-052b1a12b/
+
+"piwowarski":
+  - firstname: ["Benjamin"]
+    url: https://www.piwowarski.fr/
+
+"soulier":
+  - firstname: ["Laure"]
+    url: https://pages.isir.upmc.fr/soulier/
+
+"bursuc":
+  - firstname: ["Andrei"]
+    url: https://abursuc.github.io/
+
+"simeoni":
+  - firstname: ["Oriane"]
+    url: https://osimeoni.github.io/
+
+"puy":
+  - firstname: ["Gilles"]
+    url: https://sites.google.com/site/puygilles/
+
+"gidaris":
+  - firstname: ["Spyros"]
+    url: https://scholar.google.fr/citations?user=7atfg7EAAAAJ
+
+"jacob":
+  - firstname: ["Paul"]
+    url: https://scholar.google.fr/citations?user=BDXMtPy4fmYC 
+
+"zemni":
+  - firstname: ["Mehdi"]
+    url: https://scholar.google.fr/citations?user=2IKUaWAAAAAJ 
+
+"alahi":
+  - firstname: ["Alexandre"]
+    url: https://people.epfl.ch/alexandre.alahi
+
+"alahari":
+  - firstname: ["Karteek"]
+    url: https://lear.inrialpes.fr/people/alahari/
+
+"bartoccioni":
+  - firstname: ["Florent"]
+    url: https://f-barto.github.io/
+
+"sekkat":
+  - firstname: ["Chloé"]
+    url: https://github.com/chloeskt
+
+"vobecky":
+  - firstname: ["Antonin", "Antonín"]
+    url: https://vobecant.github.io/
+
+"xu":
+  - firstname: ["Yihong"]
+    url: https://scholar.google.fr/citations?user=vMLRRVkAAAAJ
+
+"chambon":
+  - firstname: ["Loick"]
+    url: https://loickch.github.io/
+
+"yin":
+  - firstname: ["Yuan"]
+    url: https://yuan-yin.github.io/
+
+"khayatan":
+  - firstname: ["Pegah"]
+    url: https://pegah-kh.github.io/
+
+"boulch":
+  - firstname: ["Alexandre"]
+    url: https://boulch.eu/
+
+"valle":
+  - firstname: ["Eduardo"]
+    url: https://eduardovalle.com/
+
+"gaussier":
+  - firstname: ["Eric"]
+    url: https://ama.liglab.fr/~gaussier/
+
+"gerard":
+  - firstname: ["Valentin"]
+    url: https://www.linkedin.com/in/valentingerard100/
+
+"feng":
+  - firstname: ["Lan"]
+    url: https://alan-lanfeng.github.io/
+
+"amor":
+  - firstname: ["Kaouther Messaoud Ben"]
+    url: https://scholar.google.com/citations?user=X0teZIAAAAAJ
+
+"bahari":
+  - firstname: ["Mohammadhossein"]
+    url: https://mohammadhossein-bahari.github.io/
+
+"samet":
+  - firstname: ["Nermin"]
+    url: https://nerminsamet.github.io/
+
+"ramzi":
+  - firstname: ["Elias"]
+    url: https://elias-ramzi.github.io/
+
+"cardiel": 
+  - firstname: ["Amaia"]
+    url: https://www.linkedin.com/in/amaia-cardiel-a63489aa/
+
+"vu": 
+  - firstname: ["Tuan-Hung"]
+    url: https://tuanhungvu.github.io/
+
+"letzelter":
+  - firstname: ["Victor"]
+    url: https://victorletzelter.github.io/
