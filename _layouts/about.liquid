@@ -55,11 +55,11 @@ layout: default
     {% for student in site.data.students %}
       <li>
         {% if student[1].url %}
-          <strong><a href="{{ student[1].url }}" target="_blank">{{ student[1].firstname }} {{ student[0] }}</a></strong>
+          <strong><a href="{{ student[1].url }}" target="_blank">{{ student[1].firstname }} {{ student[0] }}</a></strong>,
         {% else %}
-          <strong>{{ student[1].firstname }} {{ student[0] }}</strong>
+          <strong>{{ student[1].firstname }} {{ student[0] }}</strong>,
         {% endif %}
-        ({{ student[1].year }}{% if student[1].year_end %} - {{ student[1].year_end }}{% endif %})
+        {{ student[1].year }}{% if student[1].year_end %} - {{ student[1].year_end }}{% endif %}: 
         <em>{{ student[1].position }}</em><br>
         {% if student[1].paper %}
           <span>Paper(s):
@@ -77,11 +77,11 @@ layout: default
     {% for student in site.data.alumni %}
       <li>
         {% if student[1].url %}
-          <strong><a href="{{ student[1].url }}" target="_blank">{{ student[1].firstname }} {{ student[0] }}</a></strong>
+          <strong><a href="{{ student[1].url }}" target="_blank">{{ student[1].firstname }} {{ student[0] }}</a></strong>, 
         {% else %}
-          <strong>{{ student[1].firstname }} {{ student[0] }}</strong>
+          <strong>{{ student[1].firstname }} {{ student[0] }}</strong>,
         {% endif %}
-        ({{ student[1].year }}{% if student[1].year_end %} - {{ student[1].year_end }}{% endif %})
+        {{ student[1].year }}{% if student[1].year_end %} - {{ student[1].year_end }}{% endif %}:
         <em>{{ student[1].position }}</em><br>
         {% if student[1].paper %}
           <span>Paper(s):
@@ -91,7 +91,7 @@ layout: default
           </span><br>
         {% endif %}
         {% if student[1].position_now %}
-          <span>Current Position: {{ student[1].position_now }}</span><br>
+          <span>Current position: {{ student[1].position_now }}</span><br>
         {% endif %}
       </li>
     {% endfor %}
