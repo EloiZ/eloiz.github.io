@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I receive the outstanding reviewer award at [ICCV 2023](https://iccv2023.thecvf.com/outstanding.reviewers-118.php).
+I am an outstanding reviewer at [ICCV 2023](https://iccv2023.thecvf.com/outstanding.reviewers-118.php).

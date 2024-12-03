@@ -17,6 +17,7 @@ profile:
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
+students: true
 ---
 
 I am a research scientist at [valeo.ai](https://valeoai.github.io), an AI research center focused on machine learning and computer vision for automotive applications.

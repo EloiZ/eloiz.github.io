@@ -6,6 +6,7 @@
     preview={gift.png},
     arxiv={2411.15605},
     code={https://github.com/valeoai/GIFT},
+    abstract={GIFT generates global, understandable textual explanations for vision classifiers by seeding explanations from counterfactual explanations, summarizing them with an LLM, and testing them for faithfulness.},
     title = {{GIFT}: A Framework for Global Interpretable Faithful Textual Explanations of Vision Classifiers},
     author = {Éloi Zablocki* and
               Valentin Gerard* and
@@ -22,6 +23,7 @@
   bibtex_show={true},
   preview={ppt.PNG},
   code={https://github.com/valeoai/PPT},
+  abstract={Pre-training with pseudo-labeled trajectories, obtained with offline 3D-trackers, boosts trajectory prediction models: improved performance, efficiency, and generalization.},
   title={{PPT}: Pre-Training with Pseudo-Labeled Trajectories for Motion Forecasting},
   author    = {Yihong Xu and
                Yuan Yin and
@@ -40,6 +42,7 @@
   code={https://github.com/valeoai/MF_aWTA},
   video={https://www.youtube.com/watch?v=EOsIayPi7Lw},
   arxiv={2409.11172},
+  abstract={This paper introduces a new annealing loss that enhances training stability and convergence in state-of-the-art trajectory prediction models.},
   title={Annealed Winner-Takes-All for Motion Forecasting},
   author    = {Yihong Xu and
                Victor Letzelter and
@@ -56,6 +59,7 @@
   preview={llm_wrapper.png},
   code={https://github.com/valeoai/llm_wrapper},
   arxiv={2409.11919},
+  abstract={LLM-wrapper adapts VLMs using LLMs for reasoning, improving performance across VLMs, ensembles, and new datasets without requiring access to internal architectures.},
   title={{LLM-wrapper}: black-box semantic-aware adaptation of Vision-Language foundation models},
   author = {Amaia Cardiel and
            Éloi Zablocki and
@@ -71,6 +75,7 @@
   preview={regents_page.png},
   code={https://github.com/valeoai/regents},
   arxiv={2409.07830},
+  abstract={ReGentS generates safety-critical driving scenarios with adversarial optimization of real-world trajectories.},
   title={{ReGentS}: Real-World Safety-Critical Driving Scenario Generation Made Stable},
   author = {Yuan Yin and
            Pegah Khayatan and
@@ -88,6 +93,7 @@
   code={https://github.com/valeoai/valeo4cast},
   arxiv={2406.08113},
   video={https://www.youtube.com/watch?v=2BvoPbW4vpc&t=1107s},
+  abstract={This modular approach to motion forecasting, using separate training and fine-tuning, achieved first place in the Argoverse 2 Challenge with a 63.82 mAPf, outperforming last year's winner by +17.1 points.},
   title={{Valeo4Cast}: A Modular Approach to End-to-End Forecasting},
   author={Xu*, Yihong and Zablocki*, Éloi and Boulch*, Alexandre and Puy, Gilles and Chen, Mickael and Bartoccioni, Florent and Samet, Nermin and Sim{\'e}oni, Oriane and Gidaris, Spyros and Vu, Tuan-Hung and Bursuc, Andrei and Valle, Eduardo and Marlet, Renaud and Cord, Matthieu},
   booktitle={ECCV Workshop ROAD++},
@@ -102,6 +108,7 @@
   code={https://github.com/vita-epfl/unitraj},
   video={https://www.youtube.com/watch?v=2IzuUtiNA_4},
   arxiv={2403.15098},
+  abstract={UniTraj unifies datasets for vehicle trajectory prediction, enabling the study of scale and diversity impacts on performance and model generalization.},
   title     = {{UniTraj}: A Unified Framework for Scalable Vehicle Trajectory Prediction},
   author    = {Lan Feng and
                Mohammadhossein Bahari and
@@ -119,6 +126,7 @@
   preview={pointbev.png},
   code={https://github.com/valeoai/pointbev},
   arxiv={2312.00703},
+  abstract={For multi-camera bird's-eye-view segmentation, PointBEV generates sparse BEV points instead of dense features, adaptable to the task, situation, and compute budget at inference time.},
   title     = {{PointBeV}: A Sparse Approach to BeV Predictions},
   author    = {Loick Chambon and
                Éloi Zablocki and
@@ -136,8 +144,9 @@
   preview={unsup_obj_loc_survey.png},
   code={https://github.com/valeoai/Awesome-Unsupervised-Object-Localization},
   arxiv={2310.12904},
-  author       = {Oriane Siméoni and
-                 Éloi Zablocki and
+  abstract={A survey on unsupervised object localization methods leveraging self-supervised pre-trained features, e.g., DINO.},
+author       = {Oriane Siméoni and
+             Éloi Zablocki and
                   Spyros Gidaris and
                   Gilles Puy and
                   Patrick Pérez},
@@ -152,6 +161,7 @@
   preview={e2e_forecasting.png},
   code={https://github.com/valeoai/MFEval},
   arxiv={2306.09281},
+  abstract={This work presents a unified evaluation pipeline for motion forecasting with real-world perception inputs, revealing a performance gap between curated and perception-based data.},
   title     = {Towards Motion Forecasting with Real-World Perception Inputs: Are End-to-End Approaches Competitive?},
   author    = {Yihong Xu and
                Loick Chambon and
@@ -164,13 +174,13 @@
   year    = {2024}
 }
 
-
 @inproceedings{zemni2023octet,
   bibtex_show={true},
   preview={octet.png},
   video={https://youtu.be/Xfq0uRcw9jQ},
   code={https://github.com/valeoai/octet},
   arxiv={2211.12380},
+  abstract={OCTET is a model for generating counterfactual explanations in deep vision models dealing with complex scenes, including many objects.},
   author    = {Mehdi Zemni and
                 Mickaël Chen and
                 Éloi Zablocki and
@@ -188,6 +198,7 @@
   video={https://www.youtube.com/watch?v=jfYQfFcrJBE},
   code={https://github.com/valeoai/found},
   arxiv={2212.07834},
+  abstract={FOUND is an unsupervised model that discovers objects by self-training on self-supervised DINO features.},
   author    = {Oriane Siméoni and
                Chloé Sekkat and
                Gilles Puy and
@@ -199,11 +210,29 @@
   year      = {2023}
 }
 
+@inproceedings{bartoccioni2023lidartouch,
+  bibtex_show={true},
+  preview={lidartouch.png},
+  code={https://github.com/valeoai/lidartouch},
+  arxiv={2109.03569},
+  abstract={LiDARTouch combines a monocular camera with a cheap LiDAR to estimate dense depth maps in a self-supervised manner.},
+  author    = {Florent Bartoccioni and
+               Éloi Zablocki and
+               Patrick Pérez and
+               Matthieu Cord and
+               Karteek Alahari},
+  title     = {{LiDARTouch}: Monocular metric depth estimation with a few-beam LiDAR},
+  booktitle = {CVIU},
+  year      = {2023}
+}
+
+
 @inproceedings{bartoccioni2022lara,
   bibtex_show={true},
   preview={lara.png},
   code={https://github.com/valeoai/lara},
   arxiv={2206.13294},
+  abstract={LaRa is a perceiver transformer for multi-camera bird's-eye-view semantic segmentation, using a novel positional encoding for rays.},
   author    = {Florent Bartoccioni and
                Éloi Zablocki and
                Andrei Bursuc and
@@ -221,6 +250,7 @@
   video={https://youtu.be/79SMlEtscuY},
   code={https://github.com/valeoai/steex},
   arxiv={2111.09094},
+  abstract={STEEX generates counterfactual explanations for vision classifiers dealing with high-quality images and complex scenes.},
   author    = {Paul Jacob and
                 Éloi Zablocki and
                 Hédi Ben-Younes and
@@ -237,6 +267,7 @@
   preview={cab.png},
   code={https://github.com/valeoai/cab},
   arxiv={2109.08048},
+  abstract={CAB is a strategy to improve trajectory prediction by enhancing the use of HD-map information, addressing the issue of models merely extrapolating past motion.},
   author    = {Hedi Ben-Younes* and
                Éloi Zablocki* and
                Mickaël Chen and
@@ -247,25 +278,11 @@
   year      = {2022}
 }
 
-@inproceedings{bartoccioni2023lidartouch,
-  bibtex_show={true},
-  preview={lidartouch.png},
-  code={https://github.com/valeoai/lidartouch},
-  arxiv={2109.03569},
-  author    = {Florent Bartoccioni and
-               Éloi Zablocki and
-               Patrick Pérez and
-               Matthieu Cord and
-               Karteek Alahari},
-  title     = {{LiDARTouch}: Monocular metric depth estimation with a few-beam LiDAR},
-  booktitle = {CVIU},
-  year      = {2023}
-}
-
 @inproceedings{zablocki2022xai_driving_survey,
   bibtex_show={true},
   preview={xai_survey.png},
   arxiv={2101.05307},
+  abstract={A survey on explainability methods for vision-based autonomous-driving models.},
   author    = {Éloi Zablocki* and
                 Hédi Ben-Younes* and
                Patrick Pérez and
@@ -280,6 +297,7 @@
   preview={beef.png},
   code={https://github.com/valeoai/beef},
   arxiv={2012.04983},
+  abstract={BEEF is a self-driving model that both drives and explains its decisions with natural language.},
   author    = {Hedi Ben-Younes* and
                Éloi Zablocki* and
                Matthieu Cord and
@@ -293,6 +311,7 @@
   bibtex_show={true},
   preview={transductive_zsl.PNG},
   arxiv={2011.06850},
+  abstract={CM-GAN is a transductive Zero-Shot Learning model based on CycleGAN.},
   author    = {Patrick Bordes and
                Éloi Zablocki and
                Benjamin Piwowarski and
@@ -306,6 +325,7 @@
   bibtex_show={true},
   preview={czsl.PNG},
   arxiv={1904.12638},
+  abstract={We introduce "context-aware zero-shot recognition" that enhances traditional zero-shot recognition by incorporating contextual information, modeling the likelihood of an object appearing in specific contexts.},
   author    = {Éloi Zablocki* and
                Patrick Bordes* and
                Benjamin Piwowarski and
@@ -322,6 +342,7 @@
   bibtex_show={true},
   preview={grounded_sentence_embedding.PNG},
   arxiv={2002.02734},
+  abstract={This model transfers visual features to sentence representations through an intermediate grounded space.},
   author    = {Patrick Bordes* and
                Éloi Zablocki* and
                Laure Soulier and
@@ -338,6 +359,7 @@
   bibtex_show={true},
   preview={grounded_word_embedding.PNG},
   arxiv={1711.03483},
+  abstract={This multi-modal skip-gram model leverages both textual and visual context to learn multimodal word embeddings.},
   author    = {Éloi Zablocki and
                Benjamin Piwowarski and
                Laure Soulier and
@@ -350,6 +372,7 @@
 @inproceedings{zablocki2017sprl,
   bibtex_show={true},
   preview={clef.PNG},
+  abstract={A linear SVM on pooled word representations to classify spatial relations from text and images.},
   pdf={https://ceur-ws.org/Vol-1866/paper_76.pdf},
   author    = {Éloi Zablocki and
                Patrick Bordes and

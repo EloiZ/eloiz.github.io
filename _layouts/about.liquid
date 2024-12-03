@@ -48,6 +48,57 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+<!-- Students Section -->
+{% if page.students %}
+  <h2>Current Students</h2>
+  <ul>
+    {% for student in site.data.students %}
+      <li>
+        {% if student[1].url %}
+          <strong><a href="{{ student[1].url }}" target="_blank">{{ student[1].firstname }} {{ student[0] }}</a></strong>
+        {% else %}
+          <strong>{{ student[1].firstname }} {{ student[0] }}</strong>
+        {% endif %}
+        ({{ student[1].year }}{% if student[1].year_end %} - {{ student[1].year_end }}{% endif %})
+        <em>{{ student[1].position }}</em><br>
+        {% if student[1].paper %}
+          <span>Paper(s):
+            {% for paper in student[1].paper %}
+              <a href="{{ paper[1] }}">{{ paper[0] }}</a> ({{ paper[2] }}){% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </span><br>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Alumni</h2>
+  <ul>
+    {% for student in site.data.alumni %}
+      <li>
+        {% if student[1].url %}
+          <strong><a href="{{ student[1].url }}" target="_blank">{{ student[1].firstname }} {{ student[0] }}</a></strong>
+        {% else %}
+          <strong>{{ student[1].firstname }} {{ student[0] }}</strong>
+        {% endif %}
+        ({{ student[1].year }}{% if student[1].year_end %} - {{ student[1].year_end }}{% endif %})
+        <em>{{ student[1].position }}</em><br>
+        {% if student[1].paper %}
+          <span>Paper(s):
+            {% for paper in student[1].paper %}
+              <a href="{{ paper[1] }}">{{ paper[0] }}</a> ({{ paper[2] }}){% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </span><br>
+        {% endif %}
+        {% if student[1].position_now %}
+          <span>Current Position: {{ student[1].position_now }}</span><br>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
@@ -76,5 +127,6 @@ layout: default
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
+
   </article>
 </div>
