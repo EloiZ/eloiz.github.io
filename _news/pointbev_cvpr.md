@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[`PointBeV`](/publications#chambon2024pointbev) is accepted at CVPR 2024.
+[PointBeV](/publications#chambon2024pointbev) is accepted at CVPR 2024.

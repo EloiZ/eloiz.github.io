@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint available: [`GIFT`](/publications#zablocki2025gift) :gift:
+New preprint available: [GIFT](/publications#zablocki2025gift) :gift:

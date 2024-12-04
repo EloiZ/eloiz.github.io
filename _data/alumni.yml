@@ -1,48 +1,48 @@
 "Gerard":
     firstname: Valentin
     year: 2024
-    position: Research internship co-advised with Eduardo Valle
-    position_now: PhD student at EPFL with Alexandre Alahi
+    position: Research internship co-advised with <a href="https://eduardovalle.com" target="_blank">Eduardo Valle</a>
+    position_now: PhD student at EPFL with <a href="https://people.epfl.ch/alexandre.alahi" target="_blank">Alexandre Alahi</a>
     url: https://www.linkedin.com/in/valentingerard100/
     paper: [[GIFT, /publications#zablocki2025gift, under-review]]
 
 "Yin":
     firstname: Yuan
     year: 2024
-    position: Postdoc co-advised with Alexandre Boulch
-    position_now: Research scientist at Valeo.ai
+    position: Postdoc co-advised with <a href="https://boulch.eu/" target="_blank">Alexandre Boulch</a>
+    position_now: Research scientist at valeo.ai
     url: https://yuan-yin.github.io/
-    paper: [[ReGenTs, /publications#yin2024regents, ECCV'24 W-CODA Workshop]]
+    paper: [[ReGenTs, /publications#yin2024regents, ECCV'24 W-CODA Workshop], [PPT, /publications#xu2025ppt, under-review]]
       
 "Bartoccioni":
     firstname: Florent                                                          
     year: 2020
     year_end: 2023
-    position: PhD student co-advised with Matthieu Cord, Patrick Pérez and Karteek Alahari
-    position_now: Research engineer at valeo.ai.
-    url: https://f-barto.github.io/                                                
+    position: PhD student co-advised with <a href="https://cord.isir.upmc.fr/" target="_blank">Matthieu Cord</a>, <a href="https://ptrckprz.github.io/" target="_blank">Patrick Pérez</a>, and <a href="https://scholar.google.fr/citations?user=IFLcfvUAAAAJ" target="_blank">Karteek Alahari</a>
+    position_now: Research engineer at valeo.ai
+    url: https://f-barto.github.io/
     paper: [[LaRa, /publications#bartoccioni2022lara, CoRL'22], [LiDARTouch, /publications#bartoccioni2023lidartouch, CVIU'23]]
 
 "Cardiel":
     firstname: Amaia                                                               
     year: 2023
-    position: Research internship co-advised with Oriane Simeoni
-    position_now: PhD student at Valeo.ai
+    position: Research internship co-advised with <a href="https://osimeoni.github.io/" target="_blank">Oriane Simeoni</a>
+    position_now: PhD student at valeo.ai
     url: https://www.linkedin.com/in/amaia-cardiel-a63489aa/
     paper: [[LLM-wrapper, /publications#cardiel2024llm-wrapper, ECCV'24 Eval-FoMo Workshop]]
 
 "Khayatan":
     firstname: Pegah
     year: 2023
-    position: Research internship co-advised with Alexandre Boulch
-    position_now: Visiting student at Sorbonne Université with Matthieu Cord
+    position: Research internship co-advised with <a href="https://boulch.eu/" target="_blank">Alexandre Boulch</a>
+    position_now: Visiting student at Sorbonne Université with <a href="https://cord.isir.upmc.fr/" target="_blank">Matthieu Cord</a>
     url: https://pegah-kh.github.io/
     paper: [[ReGenTs, /publications#yin2024regents, ECCV'24 W-CODA Workshop]]
 
 "Zemni":
     firstname: Mehdi
     year: 2022
-    position: Research internship co-advised with Mickaël Chen
+    position: Research internship co-advised with <a href="https://scholar.google.fr/citations?user=QnRpMJAAAAAJ" target="_blank">Mickaël Chen</a>
     position_now: Data scientist at Argon & co
     url: https://scholar.google.com/citations?user=2IKUaWAAAAAJ
     paper: [[OCTET, /publications#zemni2023octet, CVPR'23]]
@@ -50,7 +50,7 @@
 "Jacob":
     firstname: Paul
     year: 2021
-    position: Research internship co-advised with Hédi Ben-Younes
+    position: Research internship co-advised with <a href="https://scholar.google.fr/citations?user=IFLcfvUAAAAJ" target="_blank">Hédi Ben-Younes</a>
     position_now: Research scientist at Mistral AI. Previously Research scientist at Owkin
     url: https://scholar.google.com/citations?user=BDXMtPy4fmYC
     paper: [[STEEX, /publications#jacob2022steex, ECCV'22]]

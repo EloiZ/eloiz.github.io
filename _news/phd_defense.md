@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I defended my PhD titled "Multimodal machine learning: complementarity of textual and visual contexts".
+I defend my PhD titled "Multimodal machine learning: complementarity of textual and visual contexts".  
+Jury: [Antoine Bordes](https://www.linkedin.com/in/antoinebordes/), [Patrick Gallinari](https://pages.isir.upmc.fr/gallinari/), [Guillaume Gravier](https://people.irisa.fr/Guillaume.Gravier/), [Marie-Francine Moens](https://people.cs.kuleuven.be/~sien.moens/), [Benjamin Piwowarski](https://www.piwowarski.fr/), [Xavier Tannier](http://xavier.tannier.free.fr/).

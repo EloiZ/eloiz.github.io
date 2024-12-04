@@ -1,14 +1,14 @@
 "Cardiel":                                                                         
     firstname: Amaia                                                               
-    position: PhD student co-advised with Elias Ramzi and Eric Gaussier
+    position: PhD student co-advised with <a href="https://elias-ramzi.github.io/" target="_blank">Elias Ramzi</a> and <a href="https://ama.liglab.fr/~gaussier/" target="_blank">Eric Gaussier</a>
     url: https://www.linkedin.com/in/amaia-cardiel-a63489aa/
     year: 2024
     year_end: 2027
 
 "Chambon":                                                                         
     firstname: Loïck                                                               
-    position: PhD student co-advised with Alexandre Boulch and Matthieu Cord
-    url: https://loickch.github.io/                                                
+    position: PhD student co-advised with <a href="https://boulch.eu/" target="_blank">Alexandre Boulch</a> and <a href="https://cord.isir.upmc.fr/" target="_blank">Matthieu Cord</a>
+    url: https://loickch.github.io/                                                 
     year: 2023
     year_end: 2026
     paper: [[PointBeV, /publications#chambon2024pointbev, CVPR'24], [E2E-MF, /publications#xu2024towards, ICRA'24]]

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint available: [`Annealed Winner-Takes-All for Motion Forecasting`](/publications#xu2025awta)
+New preprint available: [Annealed Winner-Takes-All for Motion Forecasting](/publications#xu2025awta)

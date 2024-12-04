@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[`UniTraj`](/publications#feng2024unitraj) is accepted at ECCV 2024.
+[UniTraj](/publications#feng2024unitraj) is accepted at ECCV 2024.

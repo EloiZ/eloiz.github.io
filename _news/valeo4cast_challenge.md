@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[`Valeo4Cast`](/publications#xu2024valeo4cast) wins the [Argoverse 2 "Unified Detection, Tracking and Forecasting" challenge](https://www.youtube.com/watch?v=2BvoPbW4vpc&t=1107s) held at [CVPR WAD 2024](https://cvpr2024.wad.vision/).
+[Valeo4Cast](/publications#xu2024valeo4cast) wins the [Argoverse 2 "Unified Detection, Tracking and Forecasting" challenge](https://www.youtube.com/watch?v=2BvoPbW4vpc&t=1107s) held at [CVPR WAD 2024](https://cvpr2024.wad.vision/).
