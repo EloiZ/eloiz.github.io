@@ -6,7 +6,7 @@
     preview={gift.png},
     arxiv={2411.15605},
     code={https://github.com/valeoai/GIFT},
-    abstract={GIFT generates global, understandable textual explanations for vision classifiers by seeding explanations from counterfactual explanations, summarizing them with an LLM, and testing them for faithfulness.},
+    abstract={A framework for generating global, interpretable textual explanations of vision classifiers, combining counterfactual visual explanations with VLMs and LLMs.},
     title = {{GIFT}: A Framework for Global Interpretable Faithful Textual Explanations of Vision Classifiers},
     author = {Éloi Zablocki* and
               Valentin Gerard* and
@@ -42,7 +42,7 @@
   code={https://github.com/valeoai/MF_aWTA},
   video={https://www.youtube.com/watch?v=EOsIayPi7Lw},
   arxiv={2409.11172},
-  abstract={This paper introduces a new annealing loss that enhances training stability and convergence in state-of-the-art trajectory prediction models.},
+  abstract={Using an annealing loss enhances training stability and performance of state-of-the-art trajectory prediction models.},
   title={Annealed Winner-Takes-All for Motion Forecasting},
   author    = {Yihong Xu and
                Victor Letzelter and
@@ -59,7 +59,7 @@
   preview={llm_wrapper.png},
   code={https://github.com/valeoai/llm_wrapper},
   arxiv={2409.11919},
-  abstract={LLM-wrapper adapts VLMs using LLMs for reasoning, improving performance across VLMs, ensembles, and new datasets without requiring access to internal architectures.},
+  abstract={LLMs can learn to adapt black-box VLMs for new tasks and domains, by wrapping and reasoning on the vision models' outputs.},
   title={{LLM-wrapper}: black-box semantic-aware adaptation of Vision-Language foundation models},
   author = {Amaia Cardiel and
            Éloi Zablocki and
@@ -93,7 +93,7 @@
   code={https://github.com/valeoai/valeo4cast},
   arxiv={2406.08113},
   video={https://www.youtube.com/watch?v=2BvoPbW4vpc&t=1107s},
-  abstract={This modular approach to motion forecasting, using separate training and fine-tuning, achieved first place in the Argoverse 2 Challenge with a 63.82 mAPf, outperforming last year's winner by +17.1 points.},
+  abstract={Using separate training and fine-tuning of detection, tracking, and forecasting modules, achieves first place in the Argoverse 2 Challenge, outperforming last year's winner by +17.1 points.},
   title={{Valeo4Cast}: A Modular Approach to End-to-End Forecasting},
   author={Xu*, Yihong and Zablocki*, Éloi and Boulch*, Alexandre and Puy, Gilles and Chen, Mickael and Bartoccioni, Florent and Samet, Nermin and Sim{\'e}oni, Oriane and Gidaris, Spyros and Vu, Tuan-Hung and Bursuc, Andrei and Valle, Eduardo and Marlet, Renaud and Cord, Matthieu},
   booktitle={ECCV Workshop ROAD++},
@@ -108,7 +108,7 @@
   code={https://github.com/vita-epfl/unitraj},
   video={https://www.youtube.com/watch?v=2IzuUtiNA_4},
   arxiv={2403.15098},
-  abstract={UniTraj unifies datasets for vehicle trajectory prediction, enabling the study of scale and diversity impacts on performance and model generalization.},
+  abstract={Unifying major datasets for vehicle trajectory prediction enables the study of scale and diversity impacts on performance and model generalization.},
   title     = {{UniTraj}: A Unified Framework for Scalable Vehicle Trajectory Prediction},
   author    = {Lan Feng and
                Mohammadhossein Bahari and
@@ -126,7 +126,7 @@
   preview={pointbev.png},
   code={https://github.com/valeoai/pointbev},
   arxiv={2312.00703},
-  abstract={For multi-camera bird's-eye-view segmentation, PointBEV generates sparse BEV points instead of dense features, adaptable to the task, situation, and compute budget at inference time.},
+  abstract={A sparse approach to bird's-eye view perception enhances performance and computational efficiency by avoiding the uniform allocation of resources across all cells, making it flexible to the task, situation and compute budget at inference time.},
   title     = {{PointBeV}: A Sparse Approach to BeV Predictions},
   author    = {Loick Chambon and
                Éloi Zablocki and
@@ -180,7 +180,7 @@ author       = {Oriane Siméoni and
   video={https://youtu.be/Xfq0uRcw9jQ},
   code={https://github.com/valeoai/octet},
   arxiv={2211.12380},
-  abstract={OCTET is a model for generating counterfactual explanations in deep vision models dealing with complex scenes, including many objects.},
+  abstract={Using a spatial- and object-aware generative model enables the generation of counterfactual explanations for deep vision models dealing with complex scenes, including many objects.},
   author    = {Mehdi Zemni and
                 Mickaël Chen and
                 Éloi Zablocki and
@@ -198,7 +198,7 @@ author       = {Oriane Siméoni and
   video={https://www.youtube.com/watch?v=jfYQfFcrJBE},
   code={https://github.com/valeoai/found},
   arxiv={2212.07834},
-  abstract={FOUND is an unsupervised model that discovers objects by self-training on self-supervised DINO features.},
+  abstract={FOUND trains a single conv1x1 on DINO features, for unsupervised object segmentation. It runs at 80 FPS on a V100 after a 2h self-training on a single GPU.},
   author    = {Oriane Siméoni and
                Chloé Sekkat and
                Gilles Puy and
@@ -215,7 +215,7 @@ author       = {Oriane Siméoni and
   preview={lidartouch.png},
   code={https://github.com/valeoai/lidartouch},
   arxiv={2109.03569},
-  abstract={LiDARTouch combines a monocular camera with a cheap LiDAR to estimate dense depth maps in a self-supervised manner.},
+  abstract={Adding a low-cost LiDAR to a monocular camera setup yields improved metric depth maps in a self-supervised manner.},
   author    = {Florent Bartoccioni and
                Éloi Zablocki and
                Patrick Pérez and
@@ -232,7 +232,7 @@ author       = {Oriane Siméoni and
   preview={lara.png},
   code={https://github.com/valeoai/lara},
   arxiv={2206.13294},
-  abstract={LaRa is a perceiver transformer for multi-camera bird's-eye-view semantic segmentation, using a novel positional encoding for rays.},
+  abstract={The Perceiver architecture, combined with careful ray encoding, excels in multi-camera fusion and transforming perceptive views into bird's-eye-view semantic segmentation.},
   author    = {Florent Bartoccioni and
                Éloi Zablocki and
                Andrei Bursuc and
@@ -250,7 +250,7 @@ author       = {Oriane Siméoni and
   video={https://youtu.be/79SMlEtscuY},
   code={https://github.com/valeoai/steex},
   arxiv={2111.09094},
-  abstract={STEEX generates counterfactual explanations for vision classifiers dealing with high-quality images and complex scenes.},
+  abstract={Using a well-structured image generative model unlocks the generation of counterfactual explanations for deep vision models dealing with high-quality image and complex scenes.},
   author    = {Paul Jacob and
                 Éloi Zablocki and
                 Hédi Ben-Younes and
@@ -267,7 +267,7 @@ author       = {Oriane Siméoni and
   preview={cab.png},
   code={https://github.com/valeoai/cab},
   arxiv={2109.08048},
-  abstract={CAB is a strategy to improve trajectory prediction by enhancing the use of HD-map information, addressing the issue of models merely extrapolating past motion.},
+  abstract={As trajectory prediction models merely extrapolate past motion, CAB enhances the use of HD-map information, addressing long-tail corner cases.},
   author    = {Hedi Ben-Younes* and
                Éloi Zablocki* and
                Mickaël Chen and
@@ -311,7 +311,7 @@ author       = {Oriane Siméoni and
   bibtex_show={true},
   preview={transductive_zsl.PNG},
   arxiv={2011.06850},
-  abstract={CM-GAN is a transductive Zero-Shot Learning model based on CycleGAN.},
+  abstract={Using a cycle-consistency loss reduces the domain shift between visual and textual representations, enhancing performance in zero-shot object recognition.},
   author    = {Patrick Bordes and
                Éloi Zablocki and
                Benjamin Piwowarski and
@@ -325,7 +325,7 @@ author       = {Oriane Siméoni and
   bibtex_show={true},
   preview={czsl.PNG},
   arxiv={1904.12638},
-  abstract={We introduce "context-aware zero-shot recognition" that enhances traditional zero-shot recognition by incorporating contextual information, modeling the likelihood of an object appearing in specific contexts.},
+  abstract={Using visual context boosts zero-shot object recognition.},
   author    = {Éloi Zablocki* and
                Patrick Bordes* and
                Benjamin Piwowarski and
@@ -342,7 +342,7 @@ author       = {Oriane Siméoni and
   bibtex_show={true},
   preview={grounded_sentence_embedding.PNG},
   arxiv={2002.02734},
-  abstract={This model transfers visual features to sentence representations through an intermediate grounded space.},
+  abstract={A careful transfer of visual features to sentence representations enriches the semantics of general-purpose textual representations.},
   author    = {Patrick Bordes* and
                Éloi Zablocki* and
                Laure Soulier and
@@ -359,7 +359,7 @@ author       = {Oriane Siméoni and
   bibtex_show={true},
   preview={grounded_word_embedding.PNG},
   arxiv={1711.03483},
-  abstract={This multi-modal skip-gram model leverages both textual and visual context to learn multimodal word embeddings.},
+  abstract={Visual context can be used, along with textual context, to learn improved word representations with the skip-gram algorithm.}, 
   author    = {Éloi Zablocki and
                Benjamin Piwowarski and
                Laure Soulier and
