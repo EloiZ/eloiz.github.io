@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers accepted at CVPR 2024: [OCTET](/publications#zemni2023octet) and [FOUND](/publications#simeoni2023found).
+Two papers accepted at CVPR 2023: [OCTET](/publications#zemni2023octet) and [FOUND](/publications#simeoni2023found).
