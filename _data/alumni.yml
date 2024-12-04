@@ -1,7 +1,7 @@
 "Gerard":
     firstname: Valentin
     year: 2024
-    position: Research internship co-advised with <a href="https://eduardovalle.com" target="_blank">Eduardo Valle</a>
+    position: Research intern co-advised with <a href="https://eduardovalle.com" target="_blank">Eduardo Valle</a>
     position_now: PhD student at EPFL with <a href="https://people.epfl.ch/alexandre.alahi" target="_blank">Alexandre Alahi</a>
     url: https://www.linkedin.com/in/valentingerard100/
     paper: [[GIFT, /publications#zablocki2025gift, under-review]]
@@ -26,7 +26,7 @@
 "Cardiel":
     firstname: Amaia                                                               
     year: 2023
-    position: Research internship co-advised with <a href="https://osimeoni.github.io/" target="_blank">Oriane Simeoni</a>
+    position: Research intern co-advised with <a href="https://osimeoni.github.io/" target="_blank">Oriane Simeoni</a>
     position_now: PhD student at valeo.ai
     url: https://www.linkedin.com/in/amaia-cardiel-a63489aa/
     paper: [[LLM-wrapper, /publications#cardiel2024llm-wrapper, ECCV'24 Eval-FoMo Workshop]]
@@ -34,7 +34,7 @@
 "Khayatan":
     firstname: Pegah
     year: 2023
-    position: Research internship co-advised with <a href="https://boulch.eu/" target="_blank">Alexandre Boulch</a>
+    position: Research intern co-advised with <a href="https://boulch.eu/" target="_blank">Alexandre Boulch</a>
     position_now: Visiting student at Sorbonne Université with <a href="https://cord.isir.upmc.fr/" target="_blank">Matthieu Cord</a>
     url: https://pegah-kh.github.io/
     paper: [[ReGenTs, /publications#yin2024regents, ECCV'24 W-CODA Workshop]]
@@ -42,7 +42,7 @@
 "Zemni":
     firstname: Mehdi
     year: 2022
-    position: Research internship co-advised with <a href="https://scholar.google.fr/citations?user=QnRpMJAAAAAJ" target="_blank">Mickaël Chen</a>
+    position: Research intern co-advised with <a href="https://scholar.google.fr/citations?user=QnRpMJAAAAAJ" target="_blank">Mickaël Chen</a>
     position_now: Data scientist at Argon & co
     url: https://scholar.google.com/citations?user=2IKUaWAAAAAJ
     paper: [[OCTET, /publications#zemni2023octet, CVPR'23]]
@@ -50,7 +50,7 @@
 "Jacob":
     firstname: Paul
     year: 2021
-    position: Research internship co-advised with <a href="https://scholar.google.fr/citations?user=IFLcfvUAAAAJ" target="_blank">Hédi Ben-Younes</a>
+    position: Research intern co-advised with <a href="https://scholar.google.fr/citations?user=IFLcfvUAAAAJ" target="_blank">Hédi Ben-Younes</a>
     position_now: Research scientist at Mistral AI. Previously Research scientist at Owkin
     url: https://scholar.google.com/citations?user=BDXMtPy4fmYC
     paper: [[STEEX, /publications#jacob2022steex, ECCV'22]]
