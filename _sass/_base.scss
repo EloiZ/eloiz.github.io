@@ -1327,7 +1327,9 @@ ninja-keys::part(ninja-input-wrapper) {
     text-decoration: underline;
 }
 
-ul li {
-  position: relative;
-  left: 20px;
+@media (min-width: 575px) {
+  ul li {
+    position: relative;
+    left: 20px;
+  }
 }
