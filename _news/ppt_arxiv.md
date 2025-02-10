@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint available: [PPT](/publications#xu2025ppt). Pre-training trajectory prediction models with pseudo-labeled trajectories improves performance, efficiency, and generalization.
+New preprint: [PPT](/publications#xu2025ppt). Pre-training trajectory prediction models with pseudo-labeled trajectories improves performance, efficiency, and generalization.
