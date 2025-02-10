@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint available :gift:: [GIFT](/publications#zablocki2025gift). A framework for generating global, interpretable textual explanations of vision classifiers, combining counterfactual visual explanations with VLMs and LLMs.
+New preprint :gift:: [GIFT](/publications#zablocki2025gift). A framework for generating global, interpretable textual explanations of vision classifiers, combining counterfactual visual explanations with VLMs and LLMs.
