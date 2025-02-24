@@ -12,5 +12,5 @@
     url: https://loickch.github.io/                                                 
     year: 2023
     year_end: 2026
-    paper: [[GaussRender, /publications#chambon2025gaussrender, under review], [PointBeV, /publications#chambon2024pointbev, CVPR'24], [E2E-MF, /publications#xu2024towards, ICRA'24]]
+    paper: [[GaussRender, /publications#chambon2025gaussrender, under review], [VaViM and VaVAM, /publications#bartoccioni2025vavim-vavam, preprint], [PointBeV, /publications#chambon2024pointbev, CVPR'24], [E2E-MF, /publications#xu2024towards, ICRA'24]]
 
