@@ -145,3 +145,20 @@
 "marlet":
   - firstname: ["Renaud"]
     url: https://imagine.enpc.fr/~marletr/
+
+"besnier":
+  - firstname: ["Victor"]
+    url: https://scholar.google.com/citations?user=n_C2h-QAAAAJ
+
+"venkataramanan":
+  - firstname: ["Shashanka"]
+    url: https://shashankvkt.github.io/
+
+"odabas":
+  - firstname: ["Serkan"]
+    url: https://www.linkedin.com/in/serkan-odabas-774144113/
+
+"hurych":
+  - firstname: ["David"]
+    url: https://www.linkedin.com/in/david-hurych-1b862b82/
+
