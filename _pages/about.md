@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 #subtitle: Whatever text, affiliation etc...
-subtitle: Research scientist at <a href='https://valeoai.github.io'>valeo.ai</a>
+subtitle: Senior research scientist at <a href='https://valeoai.github.io'>valeo.ai</a>
 
 profile:
   align: left
@@ -20,9 +20,9 @@ social: false # includes social icons at the bottom of the page
 students: true
 ---
 
-I am a research scientist at [valeo.ai](https://valeoai.github.io), working on:
+I am a senior research scientist at [valeo.ai](https://valeoai.github.io), working on:
 - Vision and language, Explainability
-- Autonomous driving, dynamic scene understanding and forecasting
+- Autonomous driving, dynamic scene understanding and forecasting, motion planning
 
 Before joining Valeo, I completed a Ph.D. at Sorbonne Université in 2019 on [multi-modal machine learning with language and vision](https://theses.fr/2019SORUS409), supervised by [Patrick Gallinari](https://pages.isir.upmc.fr/gallinari/), [Laure Soulier](https://pages.isir.upmc.fr/soulier/), and [Benjamin Piwowarski](https://www.piwowarski.fr/). Prior to this, I earned an MSc from ENS Paris-Saclay ("Master MVA") and École Polytechnique (X2012).  
 
