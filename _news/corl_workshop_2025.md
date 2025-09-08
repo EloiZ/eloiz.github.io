@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[VaViM and VaVAM](/publications#bartoccioni2025vavim) and [PPT](/publications#xu2025ppt) are accepted at CoRL Workshops.
+[VaViM and VaVAM](/publications#bartoccioni2025vavim-vavam) and [PPT](/publications#xu2025ppt) are accepted at CoRL Workshops.
