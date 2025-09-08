@@ -21,8 +21,9 @@ students: true
 ---
 
 I am a senior research scientist at [valeo.ai](https://valeoai.github.io), working on:
-- Vision and language, Explainability
 - Autonomous driving, dynamic scene understanding and forecasting, motion planning
+- Vision and Language, Explainability
 
-Before joining Valeo, I completed a Ph.D. at Sorbonne Université in 2019 on [multi-modal machine learning with language and vision](https://theses.fr/2019SORUS409), supervised by [Patrick Gallinari](https://pages.isir.upmc.fr/gallinari/), [Laure Soulier](https://pages.isir.upmc.fr/soulier/), and [Benjamin Piwowarski](https://www.piwowarski.fr/). Prior to this, I earned an MSc from ENS Paris-Saclay ("Master MVA") and École Polytechnique (X2012).  
+Before joining Valeo, I completed a Ph.D. at Sorbonne Université in 2019 on [multi-modal machine learning with language and vision](https://theses.fr/2019SORUS409), supervised by [Patrick Gallinari](https://pages.isir.upmc.fr/gallinari/), [Laure Soulier](https://pages.isir.upmc.fr/soulier/), and [Benjamin Piwowarski](https://www.piwowarski.fr/). My thesis was recognized as runner-up for the Best PhD Thesis in AI in 2020 by the [French Association on Artificial Intelligence (AFIA)](https://afia.asso.fr/).
 
+Prior to this, I earned an Engineering Degree from École Polytechnique (X2012) and an MSc from ENS Paris-Saclay ("Master MVA").
