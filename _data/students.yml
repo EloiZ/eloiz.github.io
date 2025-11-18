@@ -4,7 +4,7 @@
     url: https://www.linkedin.com/in/amaia-cardiel-a63489aa/
     year: 2024
     year_end: 2027
-    paper: [[GIFT, /publications#zablocki2025gift, under review], [Contrastive concepts, https://arxiv.org/abs/2407.05061, TMLR'25], [LLM-wrapper, /publications#cardiel2025llm-wrapper, ICLR'25]]
+    paper: [[GIFT, /publications#zablocki2025gift, preprint'25], [Contrastive concepts, https://arxiv.org/abs/2407.05061, TMLR'25], [LLM-wrapper, /publications#cardiel2025llm-wrapper, ICLR'25]]
 
 "Chambon":                                                                         
     firstname: Loïck                                                               
@@ -12,5 +12,5 @@
     url: https://loickch.github.io/                                                 
     year: 2023
     year_end: 2026
-    paper: [[GaussRender, /publications#chambon2025gaussrender, ICCV'25], [JAFAR, https://arxiv.org/abs/2506.11136, NeurIPS'25], [VaViM and VaVAM, /publications#bartoccioni2025vavim-vavam, CoRL'25 Workshop], [PointBeV, /publications#chambon2024pointbev, CVPR'24], [E2E-MF, /publications#xu2024towards, ICRA'24]]
+    paper: [[NAF, /publications#chambon2026naf, preprint'26], [GaussRender, /publications#chambon2025gaussrender, ICCV'25], [JAFAR, https://arxiv.org/abs/2506.11136, NeurIPS'25], [VaViM and VaVAM, /publications#bartoccioni2025vavim-vavam, CoRL'25 Workshop], [PointBeV, /publications#chambon2024pointbev, CVPR'24], [E2E-MF, /publications#xu2024towards, ICRA'24]]
 
