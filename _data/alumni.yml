@@ -1,3 +1,12 @@
+"Chambon":                                                                         
+    firstname: Loïck                                                               
+    position: PhD student co-advised with <a href="https://boulch.eu/" target="_blank">Alexandre Boulch</a> and <a href="https://cord.isir.upmc.fr/" target="_blank">Matthieu Cord</a>
+    url: https://loickch.github.io/                                                 
+    year: 2023
+    year_end: 2026
+    paper: [[NAF, /publications#chambon2026naf, CVPR'26], [GaussRender, /publications#chambon2025gaussrender, ICCV'25], [JAFAR, https://arxiv.org/abs/2506.11136, NeurIPS'25], [VaViM and VaVAM, /publications#bartoccioni2025vavim-vavam, CoRL'25 Workshop], [PointBeV, /publications#chambon2024pointbev, CVPR'24], [E2E-MF, /publications#xu2024towards, ICRA'24]]
+
+
 "Gerard":
     firstname: Valentin
     year: 2024
