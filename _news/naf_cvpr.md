@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[NAF](/publications#chambon2026naf) is accepted at CVPR 2026. Image-guided neighborhood attention provides a lightweight and fast feature upsampler that generalizes zero-shot across vision foundation models while surpassing specialized architectures.
+[NAF](/publications#chambon2026naf) is accepted at CVPR 2026 (Highlight). Image-guided neighborhood attention provides a lightweight and fast feature upsampler that generalizes zero-shot across vision foundation models while surpassing specialized architectures.
