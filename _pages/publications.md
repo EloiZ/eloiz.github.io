@@ -13,8 +13,90 @@ nav_order: 2
 
 <!-- {% include bib_search.liquid %} -->
 
+<!-- Theme filter bar -->
+<div class="pub-filter" role="group" aria-label="Filter publications by theme">
+  <button type="button" class="pub-filter-btn active" data-theme="all">All papers</button>
+  <button type="button" class="pub-filter-btn" data-theme="world-models">World models</button>
+  <button type="button" class="pub-filter-btn" data-theme="driving">Autonomous driving &amp; planning</button>
+  <button type="button" class="pub-filter-btn" data-theme="foundation-models">Vision-language &amp; foundation models</button>
+  <button type="button" class="pub-filter-btn" data-theme="perception">Scene understanding &amp; perception</button>
+  <button type="button" class="pub-filter-btn" data-theme="xai">Explainability</button>
+</div>
+
+<style>
+  .pub-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+  .pub-filter-btn {
+    border: 1px solid var(--global-theme-color);
+    background-color: transparent;
+    color: var(--global-theme-color);
+    border-radius: 1.5rem;
+    padding: 0.35rem 1rem;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  .pub-filter-btn:hover {
+    background-color: var(--global-theme-color);
+    color: #ffffff;
+    opacity: 0.85;
+  }
+  .pub-filter-btn.active {
+    background-color: var(--global-theme-color);
+    color: #ffffff;
+  }
+</style>
+
 <div class="publications">
 
 {% bibliography %}
 
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var bar = document.querySelector(".pub-filter");
+    var container = document.querySelector(".publications");
+    if (!bar || !container) return;
+
+    var buttons = bar.querySelectorAll(".pub-filter-btn");
+
+    function applyFilter(theme) {
+      // Show/hide each publication entry.
+      container.querySelectorAll("ol.bibliography > li").forEach(function (li) {
+        var row = li.querySelector("[data-themes]");
+        var raw = row ? row.getAttribute("data-themes") : "";
+        var themes = raw
+          ? raw.split(",").map(function (s) { return s.trim(); })
+          : [];
+        var visible = theme === "all" || themes.indexOf(theme) !== -1;
+        li.style.display = visible ? "" : "none";
+      });
+
+      // Hide year groups (and their headings) that have no visible entries.
+      container.querySelectorAll("ol.bibliography").forEach(function (ol) {
+        var anyVisible = Array.prototype.some.call(ol.children, function (li) {
+          return li.style.display !== "none";
+        });
+        ol.style.display = anyVisible ? "" : "none";
+        var heading = ol.previousElementSibling;
+        if (heading && heading.tagName === "H2") {
+          heading.style.display = anyVisible ? "" : "none";
+        }
+      });
+    }
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        buttons.forEach(function (b) { b.classList.remove("active"); });
+        btn.classList.add("active");
+        applyFilter(btn.getAttribute("data-theme"));
+      });
+    });
+  });
+</script>
