@@ -16,11 +16,11 @@ nav_order: 2
 <!-- Theme filter bar -->
 <div class="pub-filter" role="group" aria-label="Filter publications by theme">
   <button type="button" class="pub-filter-btn active" data-theme="all">All papers</button>
-  <button type="button" class="pub-filter-btn" data-theme="world-models">World models</button>
   <button type="button" class="pub-filter-btn" data-theme="driving">Autonomous driving &amp; planning</button>
   <button type="button" class="pub-filter-btn" data-theme="foundation-models">Vision-language &amp; foundation models</button>
   <button type="button" class="pub-filter-btn" data-theme="perception">Scene understanding &amp; perception</button>
   <button type="button" class="pub-filter-btn" data-theme="xai">Explainability</button>
+  <button type="button" class="pub-filter-btn" data-theme="world-models">World models</button>
 </div>
 
 <style>
