@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint: [TOAD](/publications#xu2026toad) optimizes driving trajectories at test time by treating the planner's scorer as a learned reward, improving end-to-end planners plug-and-play and without retraining.
+New preprint: [TOAD](/publications#xu2026toad) optimizes driving trajectories at test time by treating the planner's scorer as a learned reward, improving end-to-end planners.
