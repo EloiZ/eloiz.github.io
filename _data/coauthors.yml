@@ -195,3 +195,19 @@
 "thome":
   - firstname: ["Nicolas"]
     url: https://thome.isir.upmc.fr/
+
+"lafon":
+  - firstname: ["Marc"]
+    url: https://marclafon.github.io/
+
+"charraut":
+  - firstname: ["Valentin"]
+    url: https://scholar.google.com/citations?user=sdF8oa8AAAAJ
+
+"bares":
+  - firstname: ["Victor"]
+    url: https://www.linkedin.com/in/victor-bares-2a4425180/
+
+"buhet":
+  - firstname: ["Thibault"]
+    url: https://scholar.google.com/citations?user=TLRo9J0AAAAJ
