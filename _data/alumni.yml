@@ -1,6 +1,7 @@
 "Chambon":                                                                         
     firstname: Loïck                                                               
     position: PhD student co-advised with <a href="https://boulch.eu/" target="_blank">Alexandre Boulch</a> and <a href="https://cord.isir.upmc.fr/" target="_blank">Matthieu Cord</a>
+    position_now: Research scientist at Mistral AI
     url: https://loickch.github.io/                                                 
     year: 2023
     year_end: 2026
@@ -44,7 +45,7 @@
     firstname: Pegah
     year: 2023
     position: Research intern co-advised with <a href="https://boulch.eu/" target="_blank">Alexandre Boulch</a>
-    position_now: Visiting student at Sorbonne Université with <a href="https://cord.isir.upmc.fr/" target="_blank">Matthieu Cord</a>
+    position_now: PhD student at Sorbonne Université with <a href="https://cord.isir.upmc.fr/" target="_blank">Matthieu Cord</a>
     url: https://pegah-kh.github.io/
     paper: [[ReGenTs, /publications#yin2024regents, ECCV'24 W-CODA Workshop]]
 
